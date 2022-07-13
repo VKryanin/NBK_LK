@@ -239,7 +239,7 @@ body {
 .instahrom-logo {
     width: 88px;
     height: 104px;
-    background: url(/LK/frame_1/instahrom-img/instahtom-logo.svg); 
+    background: url(../frame_1/instahrom-img/instahtom-logo.svg); 
 }
 .instahrom-content {
     width: 623px;
