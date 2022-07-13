@@ -1,0 +1,324 @@
+* {
+    margin: 0;
+    padding: 0; 
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 12px;
+}
+html, body {
+    width: 1565px; 
+    height: 900px;
+}
+body {
+    width: 1565px;
+    background-color: #E5E5E5;
+}
+.container {
+    display: flex;
+    width: 100%;
+    height: 100%;
+}
+
+.nav {
+    position: relative;
+    z-index: 100;
+    width: 260px;
+    height: 100%;
+    background-color: #fff;
+    box-shadow: 0px 2px 8px rgba(180, 193, 207, 0.25);
+    display: flex;
+    flex-direction: column;
+}
+
+.logo {
+    margin: 15px 70px 0 70px ;
+}
+
+.balance {
+    background-color: #1C444C;
+    border-radius: 5px;
+    font-size: 12px;
+    color: #fff;
+    margin: 40px 20px 20px 20px;
+    padding: 16px 18px 16px 15px;
+}
+
+.menu {
+    /* padding: 20px 0 20px 42px; */
+    width: 100%;
+    border-top: 0.5px solid #B4C1CF;
+}
+
+.menu ul, .news ul {
+    list-style-position: inside
+}
+
+.menu:nth-last-child(){
+    border-bottom: 0.5px solid #B4C1CF;
+}
+
+.invest {
+    border-bottom: 0.5px solid #B4C1CF;
+    width: 100%;
+    padding-bottom: 13px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.other {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    font-weight: 400;
+}
+
+.income {
+    width: 100%;
+    padding: 9px 0 7px;
+    color: #14AD84;
+    font-size: 11px;
+}
+
+.general, .general-sum {
+    padding-bottom: 11px;
+}
+.general, .general-sum, .current, .current-sum {
+    width: 50%;
+    font-size: 12px;
+}
+.general-sum, .current-sum {
+    text-align: right;
+}
+
+.news {
+    width: 100%;
+    height: max-content;
+    border-top: 0.5px solid #B4C1CF;
+}
+
+
+.news_preview {
+    flex-shrink: 0;
+    width: 220px;
+    height: 220px;
+    margin: 20px auto;
+    background-color: #f6f6f6;
+    border-radius: 5px;
+}
+
+.bg-img {
+    width: 100%;
+    height: 116px;
+    background: url(../img/tech_int1\ 1.svg);
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+}
+
+.news-text {
+    font-style: normal;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 15px;
+    padding: 12px 16px 42px 11px;  
+    color: ;  
+}
+.news-date {
+    color: #726C6C; 
+    font-size: 10px;
+    text-align: end;
+    padding-right: 10px;
+}
+
+                                /* header style */
+.page {
+    width: 100%;
+}
+
+.header {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+    .row {
+        background-color: #fff;
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+        .lot {
+            font-weight: 600;
+            font-size: 20px;
+            margin: 30px 0 31px 30px;
+            padding-top: 5px;
+        }
+        .user_name {
+            display: flex;
+            justify-content: space-between;
+            align-items:center;
+            margin: 0 30.14px;
+            font-size: 16px;
+            font-style: normal;
+        }
+        .name p{
+            font-size: 16px;
+            line-height: 19.36px;
+            font-weight: 400;
+        }
+        .avatar {
+            padding-left: 15px;
+        }
+        .first-block {
+            width: 402px;
+            display: flex;
+            justify-content: space-between;
+        }
+        
+        .insta-status {
+            background: #14AD8426;
+            border: 1px solid #14AD84;
+            border-radius: 20px;
+            flex-shrink: 0;
+            width: 152px;
+            height: 34px;
+            padding: 8px;
+            text-align: center;
+            margin: 30px 0 31px 20px;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+        }
+        .insta-status p {
+            font-size: 14px;
+            color: #14AD84;
+        }
+        
+        .insta-status img {
+            width: 12px;
+            height: 12px;
+        }
+        
+        .insta-date {
+            width: 152px;
+            height: 34px;
+            padding: 8px;
+            margin: 30px 0 31px 41px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .insta-date p{
+            font-size: 14px;
+            font-weight: 400;
+            line-height: 17px;
+            letter-spacing: 0em;
+            text-align: left;
+            color: #333333;
+        }
+
+        .insta-date img {
+            margin-right: 15px;
+        }                               
+
+                            /* table style */
+
+.content table {
+    width: calc(100% - 60px);
+    margin: 20px 30px;
+    border: none;
+    text-align: left;
+}
+.content th {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    color: #B4C1CF;
+    background: #E5E5E5;
+    padding-bottom: 27px;
+}
+
+.content td {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    height: 52px;
+    color: #333333;
+}
+.content tr:nth-child(odd){
+    background: #E9F3FF;
+}
+.content tr:nth-child(2n) {
+    background: #FFFFFF;
+}
+
+td:nth-of-type(5) {
+    font-weight: 700;
+} 
+.th-ok {
+    background: #E4FAF4;
+    border: 1px solid #14AD84;
+    border-radius: 20px;
+    width: 160px;
+    height: 34px;
+    display: flex;
+    align-items: center;
+    padding-left: 11px;
+    color: #14AD84;
+}
+.th-ok img{
+    margin-right: 15px;
+}
+.th-accrued {
+    background: #DDEAFB;
+    border: 1px solid #2877E0;
+    border-radius: 20px;
+    width: 160px;
+    height: 34px;
+    display: flex;
+    align-items: center;
+    padding-left: 11px;
+    color: #2877E0;
+}
+.th-accrued img {
+    margin-right: 15px;
+}
+.th-withdrawn{
+    background: #FFF1F1;
+    border: 1px solid #FF0000;
+    border-radius: 20px;
+    width: 160px;
+    height: 34px;
+    display: flex;
+    align-items: center;
+    padding-left: 11px;
+    color: #FF0000;
+}
+.th-withdrawn img{
+    margin-right: 15px;
+}
+
+.number {
+    padding-left: 16px;
+}
+.date-table {
+    padding-left: 96px;
+}
+.time-table {
+    margin-left: 153px;
+}
+.operation-table {
+    margin-left:78px
+}
+.sum-table{
+    margin-left: 169px;
+}
+.status-table{
+    padding-left: 59px;
+}
+.icon-table {
+    /* padding-left: 126px; */
+}

@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/LK/frame_3/style_frame3.css">
+    <link rel="stylesheet" href="/LK/general/buttons.css">
+    <link rel="stylesheet" href="/LK/general/li.css">
+    <link rel="stylesheet" href="/LK/frame_3/style-table-frame3.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@355;400&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@400;500;600;700&family=Inter:wght@600&family=Khula:wght@300&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@355;400&family=Montserrat&display=swap" rel="stylesheet">
+
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <div class="nav">
+                <div class="logo">
+                    <img src="../img/logo.svg" alt="">
+                </div>
+                <div class="balance">
+                    <div class="invest">
+                        <div class="invest-text">Инвестировано</div>
+                        <div class="invest-sum">0.00 ₽</div>
+                    </div>
+                    <div class="other">
+                        <div class="income">доходность</div>
+                        <div class="general">Общая</div>
+                        <div class="general-sum">0.00 ₽</div>
+                        <div class="current">Текущая</div>
+                        <div class="current-sum">0.00 ₽</div>
+                    </div>
+                </div>
+                <div class="menu">
+                    <ul>
+                        <li class="active" id='lot'><a class='active' href="/LK/frame_7/frame_7.html"><svg width="22" height="20" viewBox="0 0 22 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path class="active" id="change-color" d="M19.4545 19.2727H2.54545C1.63636 19.2727 1 18.5454 1 17.7272V6.45451C1 5.54542 1.72727 4.90906 2.54545 4.90906H19.3636C20.2727 4.90906 20.9091 5.63633 20.9091 6.45451V17.7272C21 18.5454 20.2727 19.2727 19.4545 19.2727Z" stroke="#6A737D" stroke-width="1.2" stroke-miterlimit="10"/>
+                            <path class="active" id="change-color" d="M5.72726 4.81818V2.72727C5.72726 1.72727 6.54545 1 7.45454 1H14.4545C15.4545 1 16.1818 1.81818 16.1818 2.72727V4.81818" stroke="#6A737D" stroke-width="1.2" stroke-miterlimit="10"/>
+                            <path class="active" id="change-color" d="M1 10.7273H9.54546" stroke="#6A737D" stroke-width="1.2" stroke-miterlimit="10"/>
+                            <path class="active" id="change-color" d="M11.8182 12.7273H10.0909C9.72729 12.7273 9.45456 12.4545 9.45456 12.0909V9.27272C9.45456 8.90908 9.72729 8.63635 10.0909 8.63635H11.8182C12.1818 8.63635 12.4546 8.90908 12.4546 9.27272V12.0909C12.4546 12.4545 12.1818 12.7273 11.8182 12.7273Z" stroke="#6A737D" stroke-width="1.2" stroke-miterlimit="10"/>
+                            <path class="active" id="change-color" d="M12.4546 10.7273H21" stroke="#6A737D" stroke-width="1.2" stroke-miterlimit="10"/>
+                            </svg>Лоты</a></li>
+                        <li id="fin"><a href="/LK/frame_5/frame_5.html"><svg width="21" height="20" viewBox="0 0 21 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path id="change-color" d="M17.646 19H3.0708C1.95575 19 1 18.0442 1 16.9292V6.73451C1 5.61947 1.95575 4.66372 3.0708 4.66372H17.646C18.7611 4.66372 19.7168 5.61947 19.7168 6.73451V17.0088C19.6372 18.1239 18.7611 19 17.646 19Z" stroke="#6A737D" stroke-width="1.2" stroke-miterlimit="10"/>
+                            <path id="change-color" d="M19.6373 13.9823H15.8143C15.1771 13.9823 14.6992 13.5044 14.6992 12.8673V10.8761C14.6992 10.2389 15.1771 9.76106 15.8143 9.76106H19.6373" stroke="#6A737D" stroke-width="1.2" stroke-miterlimit="10"/>
+                            <path id="change-color" d="M4.50439 4.66372L7.92917 1.23894C8.24776 0.920354 8.72563 0.920354 9.04422 1.23894L12.469 4.66372" stroke="#6A737D" stroke-width="1.2" stroke-miterlimit="10"/>
+                            <path id="change-color" d="M10.5576 2.75221L12.0709 1.23894C12.3895 0.920354 12.8674 0.920354 13.1859 1.23894L16.6107 4.66372" stroke="#6A737D" stroke-width="1.2" stroke-miterlimit="10"/>
+                            </svg>
+                            Финансы</a></li>
+                        <li id="doc"> <svg width="17" height="22" viewBox="0 0 17 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path id="change-color" d="M11.4046 1H2.54143C1.69364 1 1 1.69364 1 2.54143V19.4586C1 20.3064 1.69364 21 2.54143 21H14.6416C15.4894 21 16.183 20.3064 16.183 19.4586V5.81696L11.4046 1Z" stroke="#6A737D" stroke-width="1.2" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+                            <path id="change-color" d="M11.4045 1V4.66089C11.4045 5.31599 11.9055 5.81696 12.5606 5.81696H16.2215" stroke="#6A737D" stroke-width="1.2" stroke-miterlimit="10"/>
+                            <path id="change-color" d="M4.27563 10.4798H12.9462" stroke="#6A737D" stroke-width="1.2" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+                            <path id="change-color" d="M4.27563 13.2543H12.9462" stroke="#6A737D" stroke-width="1.2" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+                            <path id="change-color" d="M4.27563 16.0674H10.5184" stroke="#6A737D" stroke-width="1.2" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+                            </svg>Документы</li>
+                        <li id="wd"><a href="/LK/frame_6/frame-6.html"><svg width="22" height="20" viewBox="0 0 22 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path id="change-color" d="M17.7467 6.63924H18.886C19.8543 6.63924 20.5948 7.4367 20.5948 8.3481V17.2911C20.5948 18.2595 19.7974 19 18.886 19H7.09485C6.12649 19 5.38599 18.2025 5.38599 17.2911V15.981" stroke="#6A737D" stroke-width="1.2" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+                            <path id="change-color" d="M16.2089 13.4177H2.70886C1.74051 13.4177 1 12.6203 1 11.7089V2.70886C1 1.74051 1.79747 1 2.70886 1H13.4177C14.3861 1 15.1266 1.79747 15.1266 2.70886V6.63924H1" stroke="#6A737D" stroke-width="1.2" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+                            <path id="change-color" d="M13.8735 11.0253L16.209 13.4177L13.8735 15.7532" stroke="#6A737D" stroke-width="1.2" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+                            </svg>Вывод прибыли</a></li>
+                        <li id="faq"><svg width="22" height="21" viewBox="0 0 22 21" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path id="change-color" d="M14.979 13.0321H5.30762L1.5 16.3066V10.7094V2.52305C1.5 1.68537 2.18537 1 3.02305 1H14.9409C15.7786 1 16.4639 1.68537 16.4639 2.52305V11.509C16.502 12.3467 15.8166 13.0321 14.979 13.0321Z" stroke="#6A737D" stroke-width="1.2" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+                            <path id="change-color" d="M5.80249 13.0321V15.2024C5.80249 16.0401 6.48786 16.7254 7.32554 16.7254H16.9969L20.8045 20V14.4028V6.21642C20.8045 5.37875 20.1191 4.69337 19.2814 4.69337H16.54" stroke="#6A737D" stroke-width="1.2" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+                            <path id="change-color" d="M5.9 8.09257C6.39706 8.09257 6.8 7.68963 6.8 7.19257C6.8 6.69552 6.39706 6.29257 5.9 6.29257C5.40294 6.29257 5 6.69552 5 7.19257C5 7.68963 5.40294 8.09257 5.9 8.09257Z" fill="#6A737D"/>
+                            <path id="change-color" d="M9.25059 8.09257C9.74764 8.09257 10.1506 7.68963 10.1506 7.19257C10.1506 6.69552 9.74764 6.29257 9.25059 6.29257C8.75353 6.29257 8.35059 6.69552 8.35059 7.19257C8.35059 7.68963 8.75353 8.09257 9.25059 8.09257Z" fill="#6A737D"/>
+                            <path id="change-color" d="M12.6395 8.09257C13.1366 8.09257 13.5395 7.68963 13.5395 7.19257C13.5395 6.69552 13.1366 6.29257 12.6395 6.29257C12.1424 6.29257 11.7395 6.69552 11.7395 7.19257C11.7395 7.68963 12.1424 8.09257 12.6395 8.09257Z" fill="#6A737D"/>
+                            </svg>Вопросы и ответы</li>
+                        <li id="guarantee"><svg width="18" height="21" viewBox="0 0 18 21" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path id="change-color" d="M9.12829 19.949C12.0757 18.9699 16.2163 16.8996 17.1852 14.0134C17.226 13.891 17.2464 13.7585 17.2464 13.6259V3.89641C14.0848 3.88621 11.3924 2.93774 9.14868 1.05099H9.08749C6.854 2.93774 4.16157 3.88621 1 3.89641V13.6259C1 13.7585 1.0204 13.891 1.06119 14.0134C2.03006 16.8996 6.18089 18.9699 9.12829 19.949Z" stroke="#6A737D" stroke-width="1.2" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+                            <path id="change-color" d="M5.32422 10.8009L7.79228 12.8916L12.912 7.76167" stroke="#6A737D" stroke-width="1.2" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+                            </svg>Гарантии</li>
+                    </ul>
+                </div>
+                <div class="news">
+                    <ul>
+                        <li id="news"><svg width="22" height="21" viewBox="0 0 22 21" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path id="change-color" d="M4.94494 4.49725V2.18489C4.94494 1.5272 5.47736 1 6.12983 1H19.3098C19.9675 1 20.4947 1.53242 20.4947 2.18489V18.0843C20.4947 19.1387 19.6386 19.9948 18.5842 19.9948H3.22241" stroke="#6A737D" stroke-width="1.2" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+                            <path id="change-color" d="M3.22253 20C4.17253 20 4.94505 19.2275 4.94505 18.2775V4.49725H2.68489C2.0272 4.49725 1.5 5.02967 1.5 5.68214V18.2775C1.5 19.2275 2.26731 20 3.22253 20Z" stroke="#6A737D" stroke-width="1.2" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+                            <path id="change-color" d="M8.20752 5.56732H17.2377" stroke="#6A737D" stroke-width="1.2" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+                            <path id="change-color" d="M8.20752 8.85577H17.2377" stroke="#6A737D" stroke-width="1.2" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+                            <path id="change-color" d="M8.20752 12.1442H17.2377" stroke="#6A737D" stroke-width="1.2" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+                            <path id="change-color" d="M8.20752 15.4327H17.2377" stroke="#6A737D" stroke-width="1.2" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+                            </svg>Новости</li>
+                    </ul>
+                </div>
+            <div class="news_preview">
+                <div class="bg-img"></div>
+                <div class="news-text">Новые технологии в разработке
+                    програмного обеспечения</div>
+                <div class="news-date">23 июня 2022</div>
+            </div>
+        </div>
+        <div class="header">
+            <div class="row">
+                <div class="first-block">
+                    <div class="lot">Лоты</div>
+                    <div class="insta-status">
+                        <img src="/LK/img/blue_circle.svg" alt="">
+                        <p>Профинансирован</p>
+                    </div>
+                    <div class="insta-date">
+                        <img src="../img/content/calendar.svg" alt="">
+                        <p>01/01/2022</p>
+                    </div>
+                </div>
+                <div class="user_name">
+                    <div class="name">
+                        <p>Name User</p>
+                    </div>
+                    <div class="avatar">
+                        <img src="../img/Frame.svg" alt="">
+                    </div>
+                </div>
+            </div>
+            <div class="wrapper">
+                <div class="lot-first-line">
+                    <div class="about-instahrom">
+                        <div class="instahrom-logo"></div>
+                        <div class="instahrom-content">
+                            <div class="instahrom-title">On-Line-Shop</div>
+                            <div class="instahrom-text"><p>Фоторедактор ИнстаХром - это самый простой способ превратить обычные фотографии в отличные яркие кадры. Теперь вы легко сможете обработать свои снимки, улучшить их
+                                качество и изменить размер - вам не потребуется сложных графических редакторов и
+                                специальных знаний.
+                                </p></div>
+                            <div class="instahrom-text">
+                                <p>Как часто дефекты фотографий - пересвеченное или слишком темное изображение,
+                                    заваленный горизонт и прочие - обнаруживаются уже после съемки! Однако это не повод избавляться от «неудачных» фото, ведь подобные недочеты можно легко исправить. Недостатки композиции устраняются в два счета: кадрируйте, поворачивайте или зеркально отражайте снимки одним кликом. Настраивайте вручную основные параметры изображения - яркость, контрастность, насыщенность и другие - или доверьте улучшение качества картинки умному автоматическому фильтру.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="investment-status">
+                        <div class="investment-title">
+                            <p>Статус инвестирования</p>
+                        </div>
+                        <div class="investment-statistic">
+                            <div class="progress-bar">
+                                <div class="company-line">
+                                </div>
+                                <div class="investor-A">
+                                </div>
+                                <div class="investor-B">
+                                </div>
+                                <div class="investor-C">
+                                </div>
+                            </div>
+                            <div class="count-invest">
+                                <div class="company-text">
+                                    <div class="about-invest">
+                                        <p>инвестирует компания</p>
+                                    </div>
+                                    <div class="sum-for-invest">
+                                        <h1>185 000 ₽</h1>
+                                    </div>
+                                </div>
+                                <div class="investor-A-text">
+                                    <div class="about-invest">
+                                        <p>инвестор А</p>
+                                    </div>
+                                    <div class="sum-for-invest"></div>
+                                    <h1>55 000 ₽</h1>
+                                </div>
+                                <div class="investor-B-text">
+                                    <div class="about-invest">
+                                        <p>инвестор В</p>
+                                    </div>
+                                    <div class="sum-for-invest">
+                                        <h1>130 000 ₽</h1>
+                                    </div>
+                                </div>
+                                <div class="investor-C-text">
+                                    <div class="about-invest">
+                                        <p>инвестор С</p>
+                                    </div>
+                                    <div class="sum-for-invest">
+                                        <h1>130 000 ₽</h1>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="investment-docs">
+                            <div class="docs-icon">
+                                <img src="/LK/frame_3/instahrom-img/Frame.svg" alt="">
+                            </div>
+                            <div class="docs-title">
+                                <p>Документы</p>
+                            </div>
+                        </div>
+                        <div class="investment-dowloands">
+                            <div class="technical-task">
+                                <div class="docs-text">
+                                    <p>Техническое задание</p>
+                                    <img src="/LK/frame_1/instahrom-img/Icon-Share-Apple.svg" alt="">
+                                </div>
+                            </div>
+                            <div class="treaty">
+                                <div class="docs-text">
+                                    <p>Договор с инвестором</p>
+                                    <img src="/LK/frame_1/instahrom-img/Icon-Share-Apple.svg" alt="">
+                                </div> 
+                            </div>
+                            <div class="estimate">
+                                <div class="docs-text">
+                                    <p>Смета</p>
+                                    <img src="/LK/frame_1/instahrom-img/Icon-Share-Apple.svg" alt="">
+                                </div>
+                            </div>
+                            <div class="date-of-act">
+                                <div class="docs-text">
+                                    <p>Акт от 01.01.2022 г.</p>
+                                    <img src="/LK/frame_1/instahrom-img/Icon-Share-Apple.svg" alt="">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="lot-second-line">
+                    <div class="table-header">
+                        <div class="lot-header"><p> Лот №</p></div>
+                        <div class="name-header"><p> Название</p></div>
+                        <div class="price"><p>Стоимость</p></div>
+                        <div class="status"><p> Статус</p></div>
+                        <div class="share-invest"><p>Доля инвестиций</p></div>
+                        <div class="date-end"><p>Дата сдачи</p></div>
+                    </div>
+                    <div class="table-data">
+                        <div class="lot-data"><p>L00003</p></div>
+                        <div class="name-data"><p>On-line Shop</p></div>
+                        <div class="price-data"><p>500 000 ₽</p></div>
+                        <div class="status-data">
+                            <img src="/LK/img/blue_circle.svg" alt="">
+                            <p>Профинансирован (в разработке)</p>
+                        </div>
+                        <div class="share-invest-data">
+                            <div class="share-now">
+                                <img src="/LK/img/grey-circle.svg" alt="">
+                                <p>26%</p>
+                            </div>
+                            <div class="share-sum">
+                                <p>130 000 ₽</p>
+                            </div>
+                            <div class="share-date">
+                                <img src="/LK/img/content/calendar.svg" alt="">
+                                <p>01/04/2022</p>
+                            </div>
+                        </div>
+                        <div class="max-date">
+                            <img src="/LK/img/grey-circle.svg" alt="">
+                            <p>3 месяца</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="lot-three-line">
+                    <div class="line-title">
+                        <h1>Доходность</h1>
+                    </div>
+                    <div class="line-cards">
+                        <div class="piece">
+                            <p>доля</p>
+                            <h1>26%</h1>
+                        </div>
+                        <div class="return-date">
+                            <p>доходность с даты</p>
+                            <h1>22/02/22</h1>
+                        </div>>
+                    </div>
+                </div>
+            </div>
+        </div>    
+    </div>
+</body>
+<script src="../js/sripts.js"></script>
+</html>

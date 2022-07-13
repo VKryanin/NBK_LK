@@ -1,0 +1,51 @@
+button, input{
+    border: none;
+    outline: none;
+}
+.search-button {
+    background: url(../img/search/Union.svg);
+    width: 20px;
+    height: 20px;
+}
+.filter-button {
+    background: url(../img/search/filtr.svg) no-repeat;
+    width: 20px;
+    height: 20px;
+}
+.filter-button:hover {
+    cursor: pointer
+}
+.button-list-view{
+    background: url(../img/search/dropdown.svg) no-repeat;
+    width: 20px;
+    height: 20px;
+}
+.button-squard-view {
+    background: url(../img/search/Vector.svg) no-repeat;
+    width: 20px;
+    height: 20px;
+}
+
+.technical-task button, .treaty button, .estimate button, .date-of-act button{
+    outline: none;
+    border: none;
+    background-color: transparent;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 175px;
+    height: 17px;
+}
+.button-operacion-data {
+    width: 136px;
+    height: 34px;
+    background: #14AD84;
+    border-radius: 5px;
+    color: #fff;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+}

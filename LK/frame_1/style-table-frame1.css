@@ -1,0 +1,147 @@
+
+.lot-second-line {
+    margin: 60px 30px 0;
+    display: flex;
+    flex-direction: column;
+}
+.table-header, .table-data {
+    display: flex;
+}
+
+
+.table-header {
+    border-bottom: 0.5px solid #B4C1CF;
+    padding-bottom: 27px;
+}
+.table-header p {
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 17px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #B4C1CF;
+}
+
+.lot-header{
+    width: 45px;
+    height: 17px;
+    margin-right: 59px;
+}
+.name-header {
+    width: 67px;
+    height: 17px;
+    margin-right: 71px;
+}
+
+.price {
+    width: 77px;
+    height: 17px;
+    margin-right: 50px;
+}
+.status {
+    width: 49px;
+    height: 17px;
+    margin-right: 256px;
+}
+
+.count {
+    width: 132px;
+    height: 17px;
+    margin-right: 32px;
+}
+
+.min-price {
+    width: 103px;
+    height: 17px;
+    margin-right: 35px;
+}
+
+.max-price {
+    width: 107px;
+    height: 17px;
+    margin-right: 92px;
+}
+
+
+
+
+.table-data  p, .table-data{
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 17px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #333;
+}
+
+.table-data {
+    width: 100%;
+    margin-top: 15px;
+    display: flex;
+    align-items: center;
+    }
+.lot-data {
+    width: 52px;
+    height: 17px;
+    margin-right: 52px;
+}
+
+.name-data {
+    width: 77px;
+    height: 17px;
+    margin-right: 61px;
+}
+.price-data {
+    width: 81px;
+    height: 17px;
+    margin-right: 46px;
+}
+
+.status-data {
+    height: 34px;
+    width: 270px;
+    background: #E5AA3B26;
+    border: 1px solid #E5AA3B;
+    border-radius: 20px;
+    margin-right: 35px;
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+}
+.status-data p {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    text-align: center;
+    margin: 8px;
+}
+
+.status-data img {
+    width: 12px;
+    height: 12px;
+    margin: 11px;
+}
+
+.count-data {
+    width: 82px;
+    height: 17px;
+    margin-right: 82px;
+}
+
+.min-price-data {
+    width: 68px;
+    height: 17px;
+    margin-right: 70px;
+}
+
+.max-price-data {
+    width: 71px;
+    height: 17px;
+    margin-right: 62px;
+}
+.operacion-data {
+    width: 136px;
+    height: 34px;
+}
