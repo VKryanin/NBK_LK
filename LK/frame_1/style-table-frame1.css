@@ -104,9 +104,11 @@
     border: 1px solid #E5AA3B;
     border-radius: 20px;
     margin-right: 35px;
-    text-align: center;
+    align-items: center;
     display: flex;
     justify-content: space-around;
+    padding: 8px 15px 9px 11px;
+    white-space:nowrap
 }
 .status-data p {
     font-family: 'Inter';
@@ -115,7 +117,7 @@
     font-size: 14px;
     line-height: 17px;
     text-align: center;
-    margin: 8px;
+    /* margin: 8px; */
 }
 
 .status-data img {

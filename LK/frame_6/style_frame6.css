@@ -290,6 +290,10 @@ body {
 .div-form div {
     margin-top: 20px;
 }
+
+.div-form input {
+    font-size: 16px;
+}
 .name-form legend{
     font-family: 'Inter';
     font-style: normal;
@@ -377,6 +381,7 @@ text-indent: 15px;
     justify-content: space-between;
     align-items: center;
     padding-top: 15px;
+    color: #333333;
 }
 
 .number-request {
